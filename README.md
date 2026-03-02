@@ -9,6 +9,7 @@ A lightweight personal portfolio focused on clean layout, responsive design, and
 ## Tech
 - HTML
 - CSS
+- JavaScript
 
 ---
 
