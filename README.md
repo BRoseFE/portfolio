@@ -2,23 +2,26 @@
 
 ## Overview
 
-A lightweight personal portfolio focused on clean layout, responsive design, and clarity.
+A responsive personal portfolio showcasing my projects, technical skills, and professional background. Built with semantic HTML, CSS, and JavaScript, with an emphasis on accessibility, performance, and clean visual design.
 
 ---
 
 ## Tech
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
 ---
 
 ## What I Built
-- Responsive layout across common breakpoints
+- Responsive layout optimized for desktop, tablet, and mobile devices
+- Modern landing section with professional headshot
+- Project showcase with direct GitHub repository links
+- Skills and certifications sections
+- Semantic HTML for accessibility and SEO
 - Keyboard-accessible navigation
-- Semantic HTML for clear content hierarchy
-- Clear typography and spacing for readability
-- Implemented JavaScript-based email obfuscation to reduce automated scraping from static HTML.
+- Clean typography and consistent spacing
+- JavaScript-based email obfuscation to reduce automated scraping from static HTML
 
 ---
 
@@ -28,14 +31,16 @@ A lightweight personal portfolio focused on clean layout, responsive design, and
 ---
 
 ## What I Learned
-- Accessibility tradeoffs in small, real-world interfaces
-- How HTML semantics improve structure, maintainability, and accessibility
-- Managing responsive layouts with media queries
-- How small changes in CSS affect usability and readability
-- When to keep solutions simple instead of over-engineering
+- Structuring larger HTML documents using semantic elements
+- Building responsive layouts with Flexbox, CSS Grid, and media queries
+- Improving accessibility through semantic markup and keyboard navigation
+- Organizing CSS for maintainability and scalability
+- Balancing visual polish with performance and simplicity
+- Designing a portfolio that effectively presents technical skills and projects
 
 ---
 
 ## Contact
-- Email: branson@bransonrose.dev
+- Website: https://bransonrose.dev/
+- Email: bransonfe@bransonrose.dev
 - GitHub: https://github.com/BRoseFE
