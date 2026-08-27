@@ -42,5 +42,5 @@ A responsive personal portfolio showcasing my projects, technical skills, and pr
 
 ## Contact
 - Website: https://bransonrose.dev/
-- Email: bransonfe@bransonrose.dev
+- Email: branson@bransonrose.dev
 - GitHub: https://github.com/BRoseFE
