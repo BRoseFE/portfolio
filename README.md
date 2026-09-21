@@ -9,7 +9,6 @@ A responsive personal portfolio showcasing my projects, technical skills, and pr
 ## Tech
 - HTML5
 - CSS3
-- JavaScript (ES6)
 
 ---
 
