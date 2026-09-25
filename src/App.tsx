@@ -5,20 +5,20 @@ import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Certifications from "@/components/Certifications";
+import Contact from "@/components/Contact";
 
 function App() {
 	return (
 		<>
 			<Header />
-			<body>
-				<main id="main-content">
-					<Hero />
-					<Projects />
-					<About />
-					<Skills />
-					<Certifications />
-				</main>
-			</body>
+			<main id="main-content">
+				<Hero />
+				<Projects />
+				<About />
+				<Skills />
+				<Certifications />
+				<Contact />
+			</main>
 		</>
 	);
 }
