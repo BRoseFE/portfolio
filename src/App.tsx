@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Certifications from "@/components/Certifications";
 import Contact from "@/components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 				<Certifications />
 				<Contact />
 			</main>
+			<Footer />
 		</>
 	);
 }
