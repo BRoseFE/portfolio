@@ -33,7 +33,6 @@
 	--radius-full: 999px;
 
 	--container-width: 1180px;
-	--container-padding: clamp(2rem, 6vw, 4rem);
 
 	--transition: 180ms ease;
 }
@@ -132,7 +131,7 @@ p {
 ======================================== */
 
 .container {
-	width: fit-content;
+	width: min(calc(100% - 2.5rem), var(--container-width));
 
 	margin-inline: auto;
 }
@@ -646,8 +645,6 @@ p {
 
 .projects-section {
 	background: var(--surface);
-	padding-bottom: 0;
-	padding: var(--container-padding);
 }
 
 .projects-grid {
@@ -1014,7 +1011,6 @@ p {
 	grid-template-columns: minmax(300px, 0.8fr) minmax(0, 1.2fr);
 	gap: clamp(3rem, 8vw, 8rem);
 	align-items: center;
-	padding: var(--container-padding);
 }
 
 .about-image-column {
