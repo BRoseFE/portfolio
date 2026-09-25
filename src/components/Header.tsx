@@ -1,3 +1,5 @@
+import resume from "@/assets/resume/Branson_Rose_Full_Stack_Developer.pdf";
+
 function Header() {
 	return (
 		<header className="site-header">
@@ -34,7 +36,7 @@ function Header() {
 
 				<a
 					className="button button-small button-outline"
-					href="./Branson_Rose_Full_Stack_Developer.pdf"
+					href={resume}
 					target="_blank"
 					rel="noopener"
 				>
