@@ -1,4 +1,4 @@
-import resume from "@/assets/resume/Branson_Rose_Full_Stack_Developer.pdf";
+import resume from "@/assets/resume/Branson_Rose_Front_End_Developer.pdf";
 import headshot from "@/assets/headshot.jpg";
 import underline from "@/assets/underline.png";
 
@@ -14,7 +14,7 @@ const About = () => {
 					<div className="about-image-frame">
 						<img
 							src={headshot}
-							alt="Branson Rose, full-stack developer"
+							alt="Branson Rose, front-end developer"
 							loading="lazy"
 							width="700"
 							height="700"
@@ -37,11 +37,10 @@ const About = () => {
 					</h2>
 
 					<p>
-						I'm a full-stack developer focused on creating
-						applications that are useful, maintainable, and easy to
-						navigate. I enjoy working across the application stack,
-						from reusable React components to Django APIs and
-						relational database models.
+						I'm a front-end developer focused on building responsive
+						and accessible web applications with React and
+						TypeScript. I am also familiar with Django, API
+						development, and Python for backend development.
 					</p>
 
 					<p>

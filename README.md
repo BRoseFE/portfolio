@@ -86,7 +86,7 @@ src
 │   ├── icons/
 │   │   └── mountain.png
 │   ├── resume/
-│   │   └── Branson_Rose_Full_Stack_Developer.pdf
+│   │   └── Branson_Rose_Front_End_Developer.pdf
 │   ├── screenshots/
 │   │   ├── og-preview.png
 │   │   └── vg-screenshot.png

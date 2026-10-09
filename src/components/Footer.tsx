@@ -1,4 +1,4 @@
-import resume from "@/assets/resume/Branson_Rose_Full_Stack_Developer.pdf";
+import resume from "@/assets/resume/Branson_Rose_Front_End_Developer.pdf";
 
 function Footer() {
 	return (
@@ -15,7 +15,7 @@ function Footer() {
 						<span className="logo-text">Branson Rose</span>
 					</a>
 
-					<p>Full-Stack Developer based in Ontario, Canada.</p>
+					<p>Front-End Developer based in Ontario, Canada.</p>
 				</div>
 
 				<div className="footer-links">

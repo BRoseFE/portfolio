@@ -10,7 +10,9 @@ function Hero() {
 
 			<div className="container hero-layout">
 				<div className="hero-content">
-					<p className="eyebrow">Full-Stack Developer</p>
+					<p className="eyebrow">
+						Front-End Developer | React & TypeScript
+					</p>
 
 					<h1 id="hero-heading">
 						Building thoughtful web experiences from
@@ -18,11 +20,12 @@ function Hero() {
 					</h1>
 
 					<p className="hero-description">
-						I'm Branson Rose, a full-stack developer working with
-						React, JavaScript, Python, Django, REST APIs, and
-						relational databases. I build responsive, accessible,
-						and maintainable applications with a strong focus on
-						clean structure and practical user experience.
+						I'm Branson, a front-end developer working with React,
+						JavaScript, and TypeScript. I build responsive,
+						accessible, and maintainable applications with a strong
+						focus on clean structure and practical user experience.
+						I also have experience with Django and backend
+						development.
 					</p>
 
 					<div className="hero-actions">
@@ -72,7 +75,7 @@ function Hero() {
 
 						<div>
 							<strong>Available for opportunities</strong>
-							<span>Front-end, Back-end and Full-stack</span>
+							<span>Front-end | React & TypeScript</span>
 						</div>
 					</div>
 				</div>

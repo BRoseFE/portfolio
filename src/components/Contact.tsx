@@ -16,10 +16,11 @@ function Contact() {
 					</h2>
 
 					<p>
-						I'm available for front-end, back-end, and full-stack
-						development opportunities, collaborations, and select
-						freelance projects. Send me an email and tell me what
-						you are working on.
+						I'm available for front-end development opportunities,
+						collaborations, and select freelance projects. I also
+						have experience with Django, API development, and Python
+						for backend development. Send me an email and tell me
+						what you are working on.
 					</p>
 
 					<div className="contact-actions">

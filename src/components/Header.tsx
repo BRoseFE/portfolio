@@ -1,4 +1,4 @@
-import resume from "@/assets/resume/Branson_Rose_Full_Stack_Developer.pdf";
+import resume from "@/assets/resume/Branson_Rose_Front_End_Developer.pdf";
 
 function Header() {
 	return (
