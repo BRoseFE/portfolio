@@ -58,7 +58,8 @@ function Projects() {
 							<div className="project-title-row">
 								<div>
 									<p className="project-type">
-										Production React Application
+										Client Project · Production React
+										Application
 									</p>
 									<h3>Chelsea Rose Art Portfolio</h3>
 								</div>
@@ -66,31 +67,47 @@ function Projects() {
 							</div>
 
 							<p>
-								A responsive React portfolio showcasing original
-								artwork through reusable components, dynamic
-								artwork routes, centralized data, and optimized
-								image delivery.
+								A custom-built artist portfolio designed to
+								showcase and organize original artwork through
+								an image-focused, responsive experience. Built
+								with React, the application uses dynamic artwork
+								routes, centralized content management, and
+								reusable components to create a maintainable
+								platform that puts the artwork at the centre of
+								the experience.
 							</p>
 
 							<ul className="project-highlights">
 								<li>
-									Dynamic artwork pages using slug-based React
-									Router routes
+									Dynamic, slug-based artwork pages using
+									React Router, allowing individual pieces to
+									have their own dedicated and shareable URLs.
 								</li>
-
 								<li>
 									Centralized artwork metadata and reusable
-									image-path utilities
+									image-path utilities, simplifying content
+									organization and making future artwork
+									additions easier to maintain.
 								</li>
-
 								<li>
-									Semantic HTML, CSS Modules, and optimized
-									WebP artwork
+									Image-focused layouts with optimized WebP
+									assets, balancing visual quality, loading
+									performance, and responsive presentation.
 								</li>
-
 								<li>
-									Netlify configuration for client-side SPA
-									routing
+									Reusable React components and CSS Modules,
+									keeping presentation styles organized and
+									reducing duplicated interface code.
+								</li>
+								<li>
+									Semantic HTML and responsive styling to
+									provide an accessible, consistent browsing
+									experience across different screen sizes.
+								</li>
+								<li>
+									Netlify deployment configuration supporting
+									client-side routing and direct navigation to
+									individual artwork pages.
 								</li>
 							</ul>
 
@@ -102,6 +119,8 @@ function Projects() {
 								<li>React Router</li>
 								<li>JavaScript</li>
 								<li>CSS Modules</li>
+								<li>HTML5</li>
+								<li>WebP</li>
 								<li>Netlify</li>
 							</ul>
 
@@ -144,9 +163,8 @@ function Projects() {
 								<div>
 									<img
 										src={videoGameScreenshot}
-										alt="Video Game Discovery Screenshot"
+										alt="Video Game Hub application showing its game discovery interface"
 										loading="lazy"
-										aria-hidden="true"
 									/>
 								</div>
 							</div>
@@ -156,7 +174,8 @@ function Projects() {
 							<div className="project-title-row">
 								<div>
 									<p className="project-type">
-										Production React Application
+										Full-Stack Architecture · React
+										Application
 									</p>
 									<h3>Video Game Hub</h3>
 								</div>
@@ -164,32 +183,49 @@ function Projects() {
 							</div>
 
 							<p>
-								A responsive React application for discovering
-								and browsing video games through the RAWG API,
-								with searchable game data, filtering, sorting,
-								and a responsive component-based interface.
+								A feature-rich video game discovery platform
+								built with React and TypeScript, integrating the
+								RAWG API to deliver searchable game data,
+								advanced filtering, sorting, and detailed game
+								information. Built with a scalable
+								component-based architecture, efficient
+								server-state management, and a serverless API
+								layer deployed on Vercel.
 							</p>
 
 							<ul className="project-highlights">
 								<li>
-									Search, genre filtering, platform filtering,
-									and multiple sorting options using RAWG game
-									data
+									Infinite scrolling and paginated game
+									discovery powered by TanStack React Query,
+									with query caching and background data
+									management.
 								</li>
 								<li>
-									Custom TypeScript hooks for reusable,
-									type-safe API data fetching and request
-									cancellation
+									Centralized filter and search state using
+									Zustand, supporting dynamic genre, platform,
+									and sorting controls.
+								</li>
+								<li>
+									Reusable TypeScript API client and custom
+									React Query hooks for structured, type-safe
+									data fetching.
+								</li>
+								<li>
+									Detailed game pages featuring descriptions,
+									screenshots, trailers, platform information,
+									publishers, ratings, and Metacritic scores.
+								</li>
+								<li>
+									Secure Vercel serverless API layer that
+									proxies RAWG requests, validates permitted
+									endpoints, and keeps API credentials
+									protected in server-side environment
+									variables.
 								</li>
 								<li>
 									Responsive Chakra UI interface with dark
-									mode, loading skeletons, platform icons, and
-									rating indicators
-								</li>
-								<li>
-									Vercel serverless API layer protecting the
-									RAWG API key through server-side environment
-									variables
+									mode, loading skeletons, reusable
+									components, and responsive layouts.
 								</li>
 							</ul>
 
@@ -197,12 +233,16 @@ function Projects() {
 								className="tech-list"
 								aria-label="Technologies used"
 							>
-								<li>React</li>
+								<li>React 19</li>
 								<li>TypeScript</li>
 								<li>Vite</li>
 								<li>Chakra UI</li>
+								<li>TanStack Query</li>
+								<li>Zustand</li>
 								<li>Axios</li>
+								<li>React Router</li>
 								<li>Vercel</li>
+								<li>RAWG API</li>
 							</ul>
 
 							<div className="project-links">
@@ -248,7 +288,7 @@ function Projects() {
 							<div className="project-title-row">
 								<div>
 									<p className="project-type">
-										Production React Application
+										Personal Brand · React Application
 									</p>
 									<h3>Personal Portfolio</h3>
 								</div>
@@ -256,12 +296,52 @@ function Projects() {
 									This Site
 								</span>
 							</div>
+
 							<p>
-								A responsive React developer portfolio designed
-								to present projects, skills, certifications, and
-								contact information through a distinctive
-								nature-inspired visual identity with some humor.
+								A custom-designed developer portfolio built to
+								showcase projects, technical skills,
+								certifications, and professional experience.
+								Features a distinctive nature-inspired visual
+								identity, combining responsive layouts,
+								thoughtful UI/UX design, and accessible frontend
+								development to create a cohesive personal brand.
 							</p>
+
+							<ul className="project-highlights">
+								<li>
+									Custom visual identity and styling, with a
+									consistent design language, typography, and
+									nature-inspired aesthetic.
+								</li>
+								<li>
+									Responsive layouts and navigation designed
+									to provide a consistent experience across
+									desktop, tablet, and mobile.
+								</li>
+								<li>
+									Component-based React architecture with
+									TypeScript, separating content and interface
+									elements into maintainable, reusable
+									components.
+								</li>
+								<li>
+									Accessibility-focused development using
+									semantic HTML, descriptive content, and
+									accessible interface patterns.
+								</li>
+								<li>
+									Performance-conscious implementation using
+									Vite, optimized assets, and lazy-loaded
+									images.
+								</li>
+								<li>
+									Structured project and skills sections that
+									present technical experience,
+									certifications, and professional information
+									in an easy-to-navigate format.
+								</li>
+							</ul>
+
 							<ul
 								className="tech-list"
 								aria-label="Technologies used"
@@ -271,8 +351,10 @@ function Projects() {
 								<li>Vite</li>
 								<li>HTML5</li>
 								<li>CSS3</li>
+								<li>Responsive Design</li>
 								<li>Accessibility</li>
 							</ul>
+
 							<div className="project-links">
 								<a
 									className="text-link"
