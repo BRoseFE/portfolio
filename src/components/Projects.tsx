@@ -105,7 +105,7 @@ function Projects() {
 									experience across different screen sizes.
 								</li>
 								<li>
-									Netlify deployment configuration supporting
+									Vercel deployment configuration supporting
 									client-side routing and direct navigation to
 									individual artwork pages.
 								</li>
@@ -121,7 +121,7 @@ function Projects() {
 								<li>CSS Modules</li>
 								<li>HTML5</li>
 								<li>WebP</li>
-								<li>Netlify</li>
+								<li>Vercel</li>
 							</ul>
 
 							<div className="project-links">
@@ -137,7 +137,7 @@ function Projects() {
 
 								<a
 									className="text-link"
-									href="https://github.com/BRoseFE/chelsea-portfolio"
+									href="https://github.com/BRoseFE/chelsea-portfolio-dark-gallery"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
