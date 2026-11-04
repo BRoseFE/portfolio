@@ -185,7 +185,7 @@ function Projects() {
 							<p>
 								A feature-rich video game discovery platform
 								built with React and TypeScript, integrating the
-								RAWG API to deliver searchable game data,
+								GameBrain API to deliver searchable game data,
 								advanced filtering, sorting, and detailed game
 								information. Built with a scalable
 								component-based architecture, efficient
@@ -217,10 +217,10 @@ function Projects() {
 								</li>
 								<li>
 									Secure Vercel serverless API layer that
-									proxies RAWG requests, validates permitted
-									endpoints, and keeps API credentials
-									protected in server-side environment
-									variables.
+									proxies GameBrain requests, validates
+									permitted endpoints, and keeps API
+									credentials protected in server-side
+									environment variables.
 								</li>
 								<li>
 									Responsive Chakra UI interface with dark
@@ -242,7 +242,7 @@ function Projects() {
 								<li>Axios</li>
 								<li>React Router</li>
 								<li>Vercel</li>
-								<li>RAWG API</li>
+								<li>GameBrain API</li>
 							</ul>
 
 							<div className="project-links">
