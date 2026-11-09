@@ -70,44 +70,55 @@ function Projects() {
 								A custom-built artist portfolio designed to
 								showcase and organize original artwork through
 								an image-focused, responsive experience. Built
-								with React, the application uses dynamic artwork
-								routes, centralized content management, and
-								reusable components to create a maintainable
-								platform that puts the artwork at the centre of
-								the experience.
+								with React and powered by Sanity CMS, the
+								application features a dedicated content
+								management system, dynamic artwork routes, and
+								optimized image delivery. An integrated Sanity
+								Studio allows artwork to be created, edited,
+								organized, and published without modifying the
+								frontend code.
 							</p>
 
 							<ul className="project-highlights">
 								<li>
+									Integrated Sanity CMS backend with a
+									dedicated Sanity Studio, allowing artwork
+									content, metadata, publication status, and
+									display order to be managed independently of
+									the frontend application.
+								</li>
+								<li>
+									GROQ queries and the Sanity Client retrieve
+									published artwork dynamically, replacing
+									hardcoded artwork data with a centralized,
+									scalable content management system.
+								</li>
+								<li>
 									Dynamic, slug-based artwork pages using
-									React Router, allowing individual pieces to
-									have their own dedicated and shareable URLs.
+									React Router, giving individual pieces their
+									own dedicated and shareable URLs.
 								</li>
 								<li>
-									Centralized artwork metadata and reusable
-									image-path utilities, simplifying content
-									organization and making future artwork
-									additions easier to maintain.
+									Sanity-powered image delivery using the
+									Sanity Image URL Builder, supporting dynamic
+									resizing, automatic image format selection,
+									and adjustable image quality.
 								</li>
 								<li>
-									Image-focused layouts with optimized WebP
-									assets, balancing visual quality, loading
-									performance, and responsive presentation.
+									TanStack React Query manages asynchronous
+									artwork requests, caching, loading states,
+									and error handling.
 								</li>
 								<li>
-									Reusable React components and CSS Modules,
-									keeping presentation styles organized and
-									reducing duplicated interface code.
+									Reusable React components, CSS Modules, and
+									semantic HTML provide a maintainable
+									architecture and accessible, responsive
+									browsing experience.
 								</li>
 								<li>
-									Semantic HTML and responsive styling to
-									provide an accessible, consistent browsing
-									experience across different screen sizes.
-								</li>
-								<li>
-									Vercel deployment configuration supporting
-									client-side routing and direct navigation to
-									individual artwork pages.
+									Vercel deployment with client-side routing
+									and production integration with the Sanity
+									backend.
 								</li>
 							</ul>
 
@@ -115,12 +126,15 @@ function Projects() {
 								className="tech-list"
 								aria-label="Technologies used"
 							>
-								<li>React</li>
+								<li>React 19</li>
+								<li>Vite</li>
 								<li>React Router</li>
 								<li>JavaScript</li>
 								<li>CSS Modules</li>
-								<li>HTML5</li>
-								<li>WebP</li>
+								<li>Sanity CMS</li>
+								<li>Sanity Studio</li>
+								<li>GROQ</li>
+								<li>TanStack Query</li>
 								<li>Vercel</li>
 							</ul>
 
