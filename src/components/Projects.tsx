@@ -383,25 +383,39 @@ function Projects() {
 						</div>
 					</article>
 
-					{/* Future Project */}
+					{/* Current Project */}
 					<article className="project-card future-project">
 						<div className="future-project-content">
-							<p className="project-type">Currently Building</p>
+							<p className="project-type">
+								Currently Building · Real-World Project
+							</p>
 
-							<h3>Full-Stack Project Coming Next</h3>
+							<h3>React Template Marketplace</h3>
 
 							<p>
-								My next project will connect a React interface
-								to a Django REST API with authentication,
-								database-backed content, image management, and
-								complete CRUD functionality.
+								Developing a real-world digital product
+								marketplace intended to become an independently
+								operated business. The platform will allow
+								customers to browse, purchase, and securely
+								download professionally developed React
+								templates. Built with React, TypeScript and
+								Vite, with Supabase powering the database,
+								authentication and file storage. Stripe will
+								handle payment processing, while Supabase Edge
+								Functions will manage server-side operations,
+								payment verification and secure product
+								delivery.
 							</p>
 
 							<div className="future-stack">
 								<span>React</span>
-								<span>Django REST Framework</span>
+								<span>TypeScript</span>
+								<span>Vite</span>
+								<span>Tailwind CSS</span>
+								<span>Supabase</span>
 								<span>PostgreSQL</span>
-								<span>Authentication</span>
+								<span>Stripe</span>
+								<span>Vercel</span>
 							</div>
 						</div>
 					</article>
